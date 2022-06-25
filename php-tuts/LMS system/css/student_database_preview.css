@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#container{
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	height: 600px;
+}
+#container h3{
+	position: absolute;
+	top: 70px;
+	left: 200px;
+	font-size: 22px;
+	text-shadow: 2px 5px 13px rgb(0, 122, 204, .9);
+	letter-spacing: 2px;
+}
+#container input[type="text"]{
+	position: absolute;
+	left: 1000px;
+	top: 70px;
+	padding-left: 7px;
+	width: 250px;
+	height: 30px;
+	outline: none;
+	border: none;
+	line-height: 30px;
+	font-size: 12px;
+	box-shadow: -6px 6px 13px rgb(0, 122, 204, .3);
+
+}
+#container input[type="submit"]{
+	position: absolute;
+	left: 1260px;
+	top: 70px;
+	outline: none;
+	border: none;
+	height: 30px;
+	width: 30px;
+	padding-left: 7px;
+	box-shadow: 1px 5px 13px rgb(0, 122, 204, .3);
+	background-color: rgba(0,0,0,.6);
+}
+#container #db_data{
+	position: absolute;
+	width: 1110px;
+	height: 500px;
+	top: 150px;
+	left: 200px;
+}
+.content-table{
+	border-collapse: collapse;
+	margin: 0px;
+	font-size: 22px;
+
+}
+.content-table thead tr{
+	text-align: left;
+	background-color: #009999;
+	color: #ffffff;
+}
+.content-table th, .content-table td{
+	padding: 12px 30px;
+
+}
+.content-table tbody tr{
+	border-bottom: 1px solid #dddddd;
+}
+#container #record{
+	position: relative;
+	top: 700px;
+	background-color: pink;
+}
+.move-back{
+	position: relative;
+	top: 250px;
+	left: 100px;
+	
+}
+.move-back button{
+	width: 160px;
+	outline: none;
+	border-radius: 20px;
+	border: none;
+	height: 60px;
+	padding: 20px 10px;
+	line-height: 20px;
+	position: absolute;
+	left: 800px;
+	background-color: #abcb99;
+}
+.move-back button a{
+	font-size: 22px;
+	letter-spacing: 1.4px;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	color: #fff;
+	height: 100%;
+}
+.move-back button:hover{
+	background-color: #001f2f;
+	cursor: pointer;
+	transition: .4s;	
+}
+.move-back button a:hover{
+	color: #fff;
+}

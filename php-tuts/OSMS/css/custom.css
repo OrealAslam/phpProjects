@@ -1,0 +1,41 @@
+/* Changr Brand Font*/
+.navbar-brand{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	/*letter-spacing: 1px;*/
+}
+
+/* Change navigation color*/
+#myMenu .custom-nav .nav-item a{
+	color: #fff;
+}
+
+.nav-bar #myMenu .custom-nav .nav-item a:hover{
+	color: #f0aab1;
+}
+
+/* Make Imahe Responsive */
+.back-image{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 750px 700px;
+	min-height: 90vh;
+	border-radius: 0px;
+	margin-top:77px;
+}
+/* Header Image Sub-title*/
+.mainHeading{
+	
+	margin-top: 30px;
+	/*border: 2px solid red;*/
+}
+
+
+/*Media query*/
+@media only screen and (max-width: 600px){
+	.myclass{
+		text-align: center;
+		margin-top: 350px;
+	}
+ }

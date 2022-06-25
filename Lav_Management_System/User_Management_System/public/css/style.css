@@ -1,0 +1,21 @@
+body{
+    background-color:beige;
+}
+
+.subTitle{
+    /* text-shadow: 2px 2px #ff0000; */
+    font-size: 33px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+/* alert styling */
+
+.messageAlert{
+    width: 100%;
+}
+
+.bi-person-square{
+    font-size: 26px;
+}

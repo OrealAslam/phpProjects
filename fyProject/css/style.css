@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.main-head{
+	margin-top: 50px;
+}
+
+.login-form{
+	margin-top: 130px;
+}
+
+.profile{
+	font-size: 40px;
+	line-height: 20px;
+	margin-top: 4px;
+}
+
+.profile > img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.post-header{
+	font-family: sans-serif;
+	font-size: 32px;
+	margin-top: 7px;
+	letter-spacing: 2px;
+}
+
+.postcard{
+	max-width: 100%;
+	max-height: auto;
+	margin: 0 auto;
+	border: 0px;
+
+}
+
+.post-footer{
+	background-color: #000a1a;
+}
+
+.userpostimg{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.row1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.messageDiv{
+	letter-spacing: 2px;
+	color: red;
+}
+
+.scroll-community{
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.msg-area{
+	/*background-color: gray;*/
+	width: 100%;
+}
+
+.message-header{
+	max-width: 100%;
+	border: 1px solid #d9d9d9;
+	padding: 8px 12px;
+	border-radius: 10px;
+	box-shadow: 3px 5px #888888;
+}
+
+.main-area{
+	width: 100%;
+	height: 400px;
+	overflow-y: auto;
+}
+
+.newMesage{
+	position: relative;
+	top: 90%;
+	margin-top: 15px;
+	width: 100%;
+	border-radius: 7px;
+}
+
+.MyMsg{
+	/*background-color: #156ee3; */
+	padding: 3px 14px; 
+	/*color: white;*/
+}
+
+.admin{
+	letter-spacing: 2px;
+	font-size: 2rem;
+}
+
+.admin-brand{
+	font-size: 1.5rem;
+	padding-left: 15px;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+}
+
+.anchor{
+	font-size: 20px;
+	/*background-color: blue;*/
+	padding: 3px 15px;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.card-icons{
+	font-size: 2rem;
+	padding: 0px;
+}
+
+.user-data{
+	width: 80px;
+	height: 60px;
+}
+
+.user-edit-panel{
+	margin-top: 50px;
+}

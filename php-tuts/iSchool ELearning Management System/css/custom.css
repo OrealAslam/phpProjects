@@ -1,0 +1,109 @@
+/*
+Custom CSS
+*/
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+	color: #fff;
+}
+.custom-nav .custom-nav-link a{
+	color: #fff !important;
+}
+.custom-nav-link:hover{
+	background-color: #dc3545;
+	border: 1px solid #dc3545;
+	border-radius: 10px; 
+}
+
+.vid-margin{
+	margin: 0px;
+	padding: 0px;
+}
+.vid-parent{
+	position: relative;
+
+}
+
+video{
+	width: 100%;
+	height: 100%;
+}
+
+.overlay{
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+	background-color: #225470;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+}
+
+.vid-content{
+	position: absolute;
+	z-index: 3;
+	top: 39%;
+	left: 35%;
+	color: #fff;
+	text-align: center;
+}
+
+.bottom-banner{
+	color: #fff;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.stripe{
+	background-image: linear-gradient(240deg, #eda13a, #932b1b);
+	padding: 3rem;
+	height: 13rem;
+	margin-top: 4rem;
+	transform: rotate(10deg);
+	z-index: -5;
+	font-size: 17px;
+}
+
+a.social-hover :hover{
+	padding: 5px 10px;
+	text-decoration: none;
+	background-color: rgb(95, 93, 93);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width: 732px){
+	.my-content,
+	.bottom-banner,
+	.stripe{
+		display: none;
+	}
+	.vid-content{
+		top: 12%;
+		left: 50%;
+	}
+}
+
+@media screen and (min-width:0px) and (max-width: 991px){
+	.custom-nav .custom-nav-link a{
+		background-color: #1C2833;
+		padding-left: 10px; 
+	}
+	.custom-nav .custom-nav-link a:hover{
+		border-radius: none;
+		border: none;
+	}
+}
+
+
+

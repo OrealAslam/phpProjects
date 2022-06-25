@@ -1,0 +1,15 @@
+.container{
+	margin-top: 100px;
+	width: 80%;
+}
+
+.container h2{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.container .main-box{
+	border: 1px solid black;
+	padding: 20px 15px;
+	margin-top: 20px;
+}
